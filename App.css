@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color: aqua;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(34, 36, 36);
+}
+.card-body{
+margin: 20px;
+background-color: cadetblue;
+}
+.card{
+background-color: chartreuse;
+width: 800px;
+margin: 20px;
+box-shadow: 
+  inset 5px 5px 10px #000000, 
+  inset -5px -5px 10px blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 5px 0px 0px 5px;
+}
+.heading{
+    position: relative;
+    left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: khaki;
+    box-shadow: inset 0 0 10px #000000;
+}
+input{
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(128, 255, 25);
+    color: black;
+    font-size: large;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+    height: 40px;
+    width: 80px;
+    font-size: small;
+    position: relative;
+    left: 10px;
+}
+.no-user{
+    width: 450px;
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+
+
+@media (max-width: 1115px) {
+  body {
+    width: 100%;
+  }
+  .main {
+    padding: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+  }
+}
+@media (min-width: 801px) {
+    body {
+        margin: 0;
+      }
+
+      .main{
+        width: 1000px;
+        margin: 20px;
+        height: 750px;
+    }
+
+    .heading{
+        font-size: 40px;
+        width: 450px;
+     
+       margin-right: 100px;
+       
+    }
+
+    input {
+        width: 300px;
+        margin: 20px;
+        position: relative;
+        left: 8px;
+      font-size:large;
+    }
+    button{
+       font-size: 12px;
+       width: 70px;
+      
+    }
+
+    .card{
+        background-color: chartreuse;
+        width: 450px;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: small;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 5px 0px 0px 5px;
+        }
+
+        h3{
+            font-size: 18px;
+        }
+} 
+@media (min-width: 532px) and (max-width: 800px){
+    body {
+        margin: 0;
+      }
+
+      .main{
+        width: 730px;
+        margin: 14px;
+        height: 750px;
+    }
+
+    .heading{
+        font-size: 40px;
+        width: 450px;
+     
+       margin-right: 100px;
+       
+    }
+
+    input {
+        width: 300px;
+        margin: 20px;
+        position: relative;
+        left: 8px;
+      font-size:large;
+    }
+    button{
+       font-size: 12px;
+       width: 70px;
+      
+    }
+
+    .card{
+        background-color: chartreuse;
+        width: 450px;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: small;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 5px 0px 0px 5px;
+        }
+
+        h3{
+            font-size: 18px;
+        }
+} 
+
+@media (min-width: 417px) and (max-width: 531px) {
+    body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .main{
+        width: 455px;
+        margin: 14px;
+        height: 780px;
+    }
+
+    .heading{
+        font-size: 40px;
+        width: 400px;
+     
+       margin-right: 100px;
+       
+    }
+
+    input {
+        width: 300px;
+        margin: 20px;
+        position: relative;
+        left: 8px;
+      font-size:large;
+    }
+    button{
+       font-size: 15px;
+       width: 70px;
+       position: relative;
+       left: 20px;
+      
+    }
+
+    .card{
+        background-color: chartreuse;
+        width: 370px;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: small;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 5px 0px 0px 5px;
+        }
+
+        h3{
+            font-size: 15px;
+        }
+} 
+
+@media (min-width: 381px) and (max-width: 416px){
+    body {
+        margin: 0;
+      }
+
+      .main{
+        width: 350px;
+        margin: 14px;
+        height: 900px;
+    }
+
+    .heading{
+        font-size: larger;
+        width: 370px;
+     
+       margin-right: 100px;
+       
+    }
+
+    input {
+        width: 320px;
+        margin: 20px;
+        
+      font-size:20px;
+    }
+    button{
+       font-size: large;
+    }
+
+    .card{
+        background-color: chartreuse;
+        width: 300px;
+        height: 600px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: small;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 5px 0px 0px 5px;
+        }
+
+        h3{
+            font-size: 14px;
+        }
+} 
+
+
+@media (min-width: 276px) and (max-width: 380px) {
+    body {
+        margin: 0;
+      }
+
+      .main{
+        width: 305px;
+        margin: 14px;
+        height: 800px;
+    }
+
+    .heading{
+        font-size: large;
+        width: 300px;
+     
+       margin-right: 100px;
+       
+    }
+
+    input {
+        width: 265px;
+        margin: 20px;
+        
+      font-size:large;
+    }
+    button{
+       font-size: large;
+    }
+    .card{
+        background-color: chartreuse;
+        width: 250px;
+        height: 550px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: small;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 5px 0px 0px 5px;
+        }
+
+        h3{
+            font-size: 10px;
+        }
+}
+@media (min-width: 101px) and (max-width: 275px) {
+    body {
+        margin: 0;
+      }
+      .main{
+        width: 205px;
+        margin: 14px;
+        height: 800px;
+    }
+
+    .heading{
+        font-size: small;
+        width: 200px;
+     
+       margin-right: 100px;
+       
+    }
+
+    input {
+        width: 165px;
+        margin: 20px;
+        
+      font-size:smaller;
+    }
+
+    .card{
+        background-color: chartreuse;
+        width: 150px;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: smaller;
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+            margin: 5px 0px 0px 5px;
+        }
+    .username-heading{
+        font-size: small;
+    }
+    h3{
+        font-size: 5px;
+    }
+
+}
+
+
+@media (min-width: 50px) and (max-width: 100px) {
+    body {
+      margin: 0;
+    }
+     
+    .main{
+        width: 80px;
+        margin: 10px;
+        height: 800px;
+    }
+
+    input {
+        width: 65px;
+        margin: 20px;
+        
+      font-size:smaller;
+    }
+.heading{
+    font-size: small;
+    width: 50px;
+ 
+   margin-right: 100px;
+   
+}
+    .no-user{
+        width: 40px;
+        font-size: small;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+        margin: 5px 0px 0px 5px;
+    }
+    .card{
+        background-color: chartreuse;
+        width: 70px;
+        height: 500px;
+        margin: 20px;
+        box-shadow: 
+          inset 5px 5px 10px #000000, 
+          inset -5px -5px 10px blue;
+          font-size: smaller;
+        }
+        .username-heading{
+            font-size: smaller;
+        }
+        h3{
+            font-size: 2px;
+        }
+  }
+  
